@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio27</title>
+</head>
+<body>
+    <form action="gestioneprenotazione.php" method="post">
+        Nome<br>
+        <input type="text" name="nome">
+        <br>Cognome<br>
+        <input type="text" name="cognome">
+        <br>Numero Tavolo<br><br>
+        <select name="numTavolo" id="numTavolo">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <br>Seleziona Orario<br>
+        <input type="time" id="orario" name="orario">
+        <br>Eventuali Note<br>
+        <textarea name="note"></textarea>
+        <br>Quali piatti desidera?<br>
+        <input type="checkbox" id="piatto" name="check1" value="Antipasto">Antipasto<br>
+        <input type="checkbox" id="piatto" name="check2" value="Primo">Primo<br>
+        <input type="checkbox" id="piatto" name="check3" value="Secondo">Secondo<br>
+        <br>Parcheggio : <br>
+        <input type="radio" id="parcheggio" name="radio" value="Parcheggio Custodito">Parcheggio Custodito<br>
+        <input type="radio" id="parcheggio" name="radio" value="Parcheggio non Custodito">Parcheggio non Custodito<br>
+        <input type="radio" id="parcheggio" name="radio" value="No Parcheggio">No Parcheggio<br>
+        <br><input type="submit">
+    </form>
+</body>
+</html>
